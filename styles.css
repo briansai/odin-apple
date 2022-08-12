@@ -101,11 +101,31 @@ img {
 .header_hero--description {
   display: flex;
   flex-direction: column;
+  padding-right: 50px;
 }
 
 .hero_title {
   font-size: 48px;
   font-weight: 600;
+}
+
+.hero_text {
+  font-size: 24px;
+  color: #e5e7eb;
+}
+
+.hero_item {
+  margin-bottom: 30px;
+}
+
+.hero_button {
+  border-radius: 10px;
+  background-color: #3882f6;
+  color: white;
+  height: 50px;
+  width: 200px;
+  border: none;
+  font-size: 18px;
 }
 
 .hero_image {
