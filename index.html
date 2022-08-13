@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>Odin Apple</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -10,7 +11,7 @@
       <div class="nav_wrapper">
         <div class="nav--item nav_left">Odin's Apple</div>
         <a href="#products" class="nav--item nav_right">Products</a>
-        <a href="#contact" class="nav--item nav_right">Contact</a>
+        <a href="#footer" class="nav--item nav_right">Learn More</a>
       </div>
     </div>
     <div class="main">
@@ -38,7 +39,7 @@
           <div class="products_main--item">
             <img src="./images/imac.jpg" alt="imac" class="product_image" />
             <div class="item_title">iMac</div>
-            <p>
+            <p class="product_text">
               The 24-inch iMac is a testament to the power and efficiency the M1
               processor provides. Apple moved from the bulky-aging iMac chassis
               to an 11.5mm thin slab of aluminum with whisper-quiet fans. The
@@ -53,7 +54,7 @@
               class="product_image"
             />
             <div class="item_title">Macbook</div>
-            <p>
+            <p class="product_text">
               Rumors indicate that the "iPhone 14" could remain nearly identical
               to the iPhone 13, but the mini model will be swapped for a
               6.7-inch iPhone Max. New designs, processors, and cameras may be
@@ -64,7 +65,7 @@
           <div class="products_main--item">
             <img src="./images/ipad.jpg" alt="ipad" class="product_image" />
             <div class="item_title">iPad</div>
-            <p>
+            <p class="product_text">
               The iPad is a touchscreen tablet PC made by Apple . The original
               iPad debuted in 2010. Apple has three iPad product lines: iPad,
               iPad mini and iPad Pro. All models are available in silver, gray
@@ -75,7 +76,7 @@
           <div class="products_main--item">
             <img src="./images/iphone.jpg" alt="iphone" class="product_image" />
             <div class="item_title">iPhone</div>
-            <p>
+            <p class="product_text">
               iPhone is a series of smartphones produced by Apple Inc.,
               combining mobile telephone, digital camera, music player, and
               personal computing technologies. After more than two years of
@@ -86,8 +87,67 @@
           </div>
         </div>
       </section>
-      <section></section>
-      <section></section>
+      <section id="footer" class="footer">
+        <div class="footer_details">
+          <div class="footer_details--company">
+            <div class="company_title">Odin's Apple</div>
+            <div class="company_text">
+              This website is intended to be the first main project following
+              the tutorial, The Odin Project. This projects encompasses basic
+              css, including the use of flexbox. As the course continues, I hope
+              to continue working this through as I improve on my skills, be the
+              software engineer that I want to be, and prove that I can do this.
+            </div>
+          </div>
+          <div class="footer_details--contact">
+            <div class="contact_item">
+              <div class="contact_title">Contact</div>
+              <div class="contact_person">
+                <img
+                  src="./images/person.svg"
+                  width="24px"
+                  height="24px"
+                  alt="person"
+                />
+                <span>Brian Sai</span>
+              </div>
+            </div>
+            <div class="contact_item">
+              <div class="contact_phone">
+                <img
+                  src="./images/phone.svg"
+                  width="24px"
+                  height="24px"
+                  alt="phone"
+                />
+                <span>XXX-XXX-XXXX</span>
+              </div>
+            </div>
+            <div class="contact_item">
+              <div class="contact_email">
+                <img
+                  src="./images/email.svg"
+                  width="24px"
+                  height="24px"
+                  alt="email"
+                />
+                <span>XXXXXXXX@gmail.com</span>
+              </div>
+            </div>
+            <div class="contact_item">
+              <div class="contact_location">
+                <img
+                  src="./images/location.svg"
+                  width="24px"
+                  height="24px"
+                  alt="location"
+                />
+                <span>XXXXXXXXXXXX</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </body>
 </html>

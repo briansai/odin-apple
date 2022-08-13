@@ -145,7 +145,7 @@ img {
 }
 
 .products_title {
-  height: 30%;
+  height: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -159,11 +159,16 @@ img {
   display: flex;
   justify-content: center;
   gap: 20px;
+  min-width: 1000px;
 }
 
 .products_main--item {
   flex: auto;
   text-align: center;
+}
+
+.product_text {
+  font-size: 18px;
 }
 
 .product_image {
@@ -177,4 +182,50 @@ img {
   margin: 20px;
   font-size: 24px;
   font-weight: 600;
+}
+
+/* Contact */
+
+.footer {
+  width: 100%;
+  background-color: #e5e7eb;
+  height: 50vh;
+}
+
+.footer_details {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.footer_details--company {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.company_title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.company_text {
+  font-size: 20px;
+}
+
+.footer_details--contact {
+  width: 400px;
+}
+
+.contact_title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contact_item {
+  margin-bottom: 20px;
 }
