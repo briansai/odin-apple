@@ -80,7 +80,7 @@ img {
 .header {
   background-color: #1f2937;
   color: white;
-  min-width: 300px;
+  min-width: 1300px;
   height: 92vh;
 }
 
@@ -131,4 +131,50 @@ img {
 .hero_image {
   width: 600px;
   height: 400px;
+}
+
+/* Intro */
+
+.products {
+  background-color: white;
+  color: #1f2937;
+  min-width: 300px;
+  height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.products_title {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: auto;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.products_main {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.products_main--item {
+  flex: auto;
+  text-align: center;
+}
+
+.product_image {
+  border-radius: 10px;
+  border: 4px solid #3882f6;
+  width: 200px;
+  height: 200px;
+}
+
+.item_title {
+  margin: 20px;
+  font-size: 24px;
+  font-weight: 600;
 }
