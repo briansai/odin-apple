@@ -80,7 +80,6 @@ img {
 .header {
   background-color: #1f2937;
   color: white;
-  min-width: 1300px;
   height: 92vh;
 }
 
@@ -133,12 +132,11 @@ img {
   height: 400px;
 }
 
-/* Intro */
+/* Products */
 
 .products {
   background-color: white;
   color: #1f2937;
-  min-width: 300px;
   height: 100vh;
   width: 80%;
   margin: 0 auto;
@@ -159,7 +157,6 @@ img {
   display: flex;
   justify-content: center;
   gap: 20px;
-  min-width: 1000px;
 }
 
 .products_main--item {
@@ -228,4 +225,65 @@ img {
 
 .contact_item {
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+  /* Header */
+
+  .header {
+    height: 110vh;
+  }
+
+  .header_hero {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .header_hero--description {
+    padding-right: 0px;
+  }
+
+  .hero_button {
+    margin-bottom: 40px;
+  }
+
+  .hero_image {
+    width: 400px;
+    height: 200px;
+  }
+
+  /* Products */
+
+  .products {
+    height: auto;
+    padding: 50px 0;
+  }
+
+  .products_title {
+    margin-bottom: 50px;
+  }
+
+  .products_main {
+    flex-wrap: wrap;
+  }
+
+  .products_main--item {
+    margin-bottom: 20px;
+  }
+
+  /* Footer */
+
+  .footer {
+    height: 80vh;
+  }
+
+  .footer_details {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+
+  .footer_details--contact {
+    margin-top: 20px;
+  }
 }
